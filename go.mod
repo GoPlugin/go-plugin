@@ -1,4 +1,4 @@
-module github.com/hashicorp/go-plugin
+module github.com/goplugin/go-plugin
 
 go 1.17
 
@@ -13,11 +13,14 @@ require (
 	google.golang.org/protobuf v1.31.0
 )
 
+require github.com/hashicorp/go-plugin v1.6.1
+
 require (
 	github.com/bufbuild/protocompile v0.4.0 // indirect
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/mattn/go-colorable v0.1.4 // indirect
-	github.com/mattn/go-isatty v0.0.10 // indirect
+	github.com/mattn/go-isatty v0.0.17 // indirect
+	github.com/stretchr/testify v1.8.3 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
